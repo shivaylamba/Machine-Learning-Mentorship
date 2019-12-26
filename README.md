@@ -111,7 +111,9 @@ Matplotlib
 
 1. [Tutorial](https://pythonprogramming.net/matplotlib-python-3-basics-tutorial/)
 
-2. [Article/Blog](https://towardsdatascience.com/matplotlib-tutorial-learn-basics-of-pythons-powerful-plotting-library-b5d1b8f67596)
+2. [Article and Code](https://github.com/shivaylamba/Machine-Learning-Mentorship/blob/master/NumPy_Matplotlib_Pandas.ipynb)
+
+3. [Article/Blog](https://towardsdatascience.com/matplotlib-tutorial-learn-basics-of-pythons-powerful-plotting-library-b5d1b8f67596)
     
      
 ### Tasks : 
