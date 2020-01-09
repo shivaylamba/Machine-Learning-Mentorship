@@ -191,5 +191,70 @@ Support Vector Machine
 
 3. [Lecture](https://www.youtube.com/watch?v=TtKF996oEl8)
 
+### Final Task : 
 
-- Task : Extracting Dominant Colours
+Submit your code in the Task 5 folder. 
+
+**Goal** : To precisely predict individuals’ income using data collected from the 1994 U.S. Census. Your goal is to build a model that accurately predicts whether an individual makes more than $50,000.
+
+**Dataset** : [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Census+Income)
+
+**Dataset Description** : This dataset consists of approximately 32,000 data points, with each datapoint having 13 features. This dataset is a modified version of the dataset published in the paper “Scaling Up the Accuracy of Naive-Bayes Classifiers: a Decision-Tree Hybrid”, by Ron Kohavi.
+
+_Features_
+
+- `age` : Age
+- `workclass` : Working Class (Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked)
+- `education_level` : Level of Education (Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool)
+
+- `education-num` : Number of educational years completed
+- `marital-status` : Marital status (Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse)
+
+- `occupation` : Work Occupation (Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces)
+
+- `relationship` : Relationship Status (Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried)
+- `race` : Race (White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black)
+- `sex` : Sex (Female, Male)
+- `capital-gain` : Monetary Capital Gains
+- `capital-loss` : Monetary Capital Losses
+- `hours-per-week` :  Average Hours Per Week Worked
+- `native-country` : Native Country (United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands)
+
+**Target Variable**
+
+- `income` : Income Class (<=50K, >50K)
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+### After the programme
+
+Machine Learning is a vast field and since the mentorship programme was limited to 4/5 weeks we covered only the basic algorithms. Below are listed some other important algorithms. I've provided a basic introduction/implementation blog for each. However you can go ahead and explore these topics further.
+
+- Decision Trees and Random Forest
+
+1. [Introductory Blog](https://towardsdatascience.com/decision-trees-and-random-forests-df0c3123f991)
+2. [Implementation](https://jakevdp.github.io/PythonDataScienceHandbook/05.08-random-forests.html)
+3. [In-depth](https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/)
+
+- Perceptrons and Neural Network
+
+1. [Blog](https://towardsdatascience.com/what-the-hell-is-perceptron-626217814f53)
+2. [In-depth](https://www.simplilearn.com/what-is-perceptron-tutorial)
+
+- Artificial Neural Network
+
+1. [Blog](https://towardsdatascience.com/introduction-to-artificial-neural-networks-ann-1aea15775ef9)
+2. [Implementation](https://towardsdatascience.com/applied-deep-learning-part-1-artificial-neural-networks-d7834f67a4f6)
+3. [In-depth](https://www.simplilearn.com/how-to-train-artificial-neural-network-tutorial)
+
+- Convolutional Neural Network
+
+1. [Blog 1](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
+2. [Blog 2](https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148)
+
+- Transfer Learning
+
+
+- Recurrent Neural Network
+- Generative Adversarial Networks
+- Deep Convolutional GAN's (DCGANs)
